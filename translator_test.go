@@ -1,14 +1,14 @@
 package ogay
 
 import (
-	"testing"
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func TestWordsStartingWithAVowel(t *testing.T) {
-	assert.Equal(t,"appleay", TranslateWord("apple"))
+	assert.Equal(t, "appleay", TranslateWord("apple"))
 	assert.Equal(t, "elixiray", TranslateWord("elixir"))
-	assert.Equal(t,"Appleay", TranslateWord("Apple"))
+	assert.Equal(t, "Appleay", TranslateWord("Apple"))
 	assert.Equal(t, "Elixiray", TranslateWord("Elixir"))
 }
 

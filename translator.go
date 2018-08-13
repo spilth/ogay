@@ -3,7 +3,7 @@ package ogay
 import (
 	"strings"
 	"unicode"
-	)
+)
 
 func TranslateWord(englishWord string) (pigLatinWord string) {
 	firstVowelIndex := getFirstVowelIndex(englishWord)
